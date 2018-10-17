@@ -2,6 +2,10 @@
 
 > :scissors: :link: This is a URL Shortener made with Jekyll and GitHub Pages. Create short URLs that can be easily shared, tweeted, or emailed to friends.
 
+View the URL Shortener in action:
+
+* https://hlaueriksson.github.io/jekyll-url-shortener/
+
 ## Getting Started
 
 Follow these steps to create your own URL Shortener:
@@ -21,7 +25,7 @@ You probably want to use a [apex domain](https://help.github.com/articles/about-
 
 Go to your DNS provider and [setup the apex domain](https://help.github.com/articles/setting-up-an-apex-domain/).
 
-If you create DNS `A` records, point to the these IP addresses:
+If you create DNS `A` records, point to the these GitHub IP addresses:
 
 ```
 185.199.108.153
@@ -84,11 +88,11 @@ Read more about the plugin at https://github.com/jekyll/jekyll-redirect-from
 
 You can find more useful `plugins` to add at https://pages.github.com/versions/
 
-When running Jekyll locally uncomment the `repository` line and point to your own GitHub repo.
+When running Jekyll locally, uncomment the `repository` line and point to your own GitHub repo.
 
 ### GitHub Pages
 
-Go to the repo [/settings](/settings) and scroll down to the **GitHub Pages** section.
+Go to the repo [/settings](../../settings) and scroll down to the **GitHub Pages** section.
 
 Set the `Source` to `master branch`: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
 
@@ -114,6 +118,8 @@ Read more about GitHub Pages at https://pages.github.com
 
 Create a new short link by creating a page: https://jekyllrb.com/docs/pages/
 
+Create the file in the root of the repository.
+
 This repository has one example, [`repo.md`](repo.md):
 
 ```md
@@ -122,6 +128,12 @@ title: Jekyll URL Shortener
 redirect_to: https://github.com/hlaueriksson/jekyll-url-shortener
 ---
 ```
+
+This results in:
+
+* "Short" link: https://hlaueriksson.github.io/jekyll-url-shortener/repo/
+* Target page:  https://github.com/hlaueriksson/jekyll-url-shortener
+* *(Ironically the short link is 5 characters longer than the target page URL)*
 
 The `title` could be used to describe the target page. Consider to take the *exact* title of the target page.
 
@@ -155,7 +167,7 @@ Find appropriate emojis to copy from https://www.emojicopy.com
 ## Examples
 
 | Repo | Site |
-| ---- | ---- |
+| :--- | :--- |
 | https://github.com/hlaueriksson/hlaueriksson.me | https://hlaueriksson.me
 
 ## Running Jekyll locally
