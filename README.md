@@ -1,6 +1,6 @@
 # Jekyll URL Shortener
 
-> :scissors: :link: This is a URL Shortener made with Jekyll and GitHub Pages. Create short URLs that can be easily shared, tweeted, or emailed to friends.
+> :scissors: :link: This is a URL Shortener made with Jekyll and GitHub Pages. Create short URLs that can be easily shared, tweeted, or emailed to friends. Fork this repo to get started.
 
 View the URL Shortener in action:
 
