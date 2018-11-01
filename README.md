@@ -6,6 +6,23 @@ View the URL Shortener in action:
 
 * https://hlaueriksson.github.io/jekyll-url-shortener/
 
+Read a blog post about the URL Shortener:
+
+* https://conductofcode.io/post/introducing-jekyll-url-shortener/
+
+Table of Contents:
+
+  - [Getting Started](#getting-started)
+    - [Domain](#domain)
+    - [Repository](#repository)
+    - [Configuration](#configuration)
+    - [GitHub Pages](#github-pages)
+    - [Links](#links)
+  - [Built With](#built-with)
+  - [Showcase](#showcase)
+  - [Running Jekyll locally](#running-jekyll-locally)
+  - [Customizing the redirect template](#customizing-the-redirect-template)
+
 ## Getting Started
 
 Follow these steps to create your own URL Shortener:
@@ -164,7 +181,7 @@ Find appropriate emojis to copy from https://www.emojicopy.com
 * jekyll-redirect-from: https://github.com/jekyll/jekyll-redirect-from
 * GitHub Pages: https://pages.github.com
 
-## Examples
+## Showcase
 
 | Repo | Site |
 | :--- | :--- |
