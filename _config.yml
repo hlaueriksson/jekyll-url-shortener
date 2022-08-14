@@ -1,13 +1,13 @@
-title: Jekyll URL Shortener
-description: ✂️🔗 This is a template repository for making URL Shorteners with Jekyll and GitHub Pages. Create short URLs that can be easily shared, tweeted, or emailed to friends. Fork this repo to get started.
-logo: /assets/img/logo.png
-show_downloads: true
+title: gauk.as - Jekyll URL Shortener
+description: URL Shortener hosted on GitHub Pages
+# logo: /assets/img/logo.png
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 
-permalink: /:slug/
+permalink: /:slug
 
 plugins:
   - jekyll-redirect-from
 
-#repository: hlaueriksson/jekyll-url-shortener
+# repository: gaukas/gauk.as
