@@ -1,0 +1,42 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "jekyll-serve",
+      "type": "shell",
+      "command": "bundle exec jekyll serve --watch --force_polling --livereload --verbose",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+    },
+    {
+      "label": "bundle-install",
+      "type": "shell",
+      "command": "bundle install",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+    },
+    {
+      "label": "bundle-update",
+      "type": "shell",
+      "command": "bundle update",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+    }
+  ]
+}
