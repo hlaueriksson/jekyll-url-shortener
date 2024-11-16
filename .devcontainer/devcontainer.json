@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json.
+// For config options, see the README at: 
+//     https://github.com/devcontainers/templates/tree/main/src/jekyll
+{
+	"name": "Jekyll",
+	"image": "mcr.microsoft.com/devcontainers/jekyll",
+
+	// List of ports inside the container available to be forwarded to the host
+	"forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Live Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+	// Commands to be run after the container is first created
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y imagemagick imagemagick-doc",
+
+	"containerEnv": {
+		"DEBIAN_FRONTEND": "noninteractive" // Prevents some apt-get warnings
+	}
+}
