@@ -3,8 +3,7 @@ name: Dependabot auto-approve
 # This workflow is triggered on pull requests opened by Dependabot
 on:
   pull_request:
-    branches:
-      - master
+    branches: [$default-branch]
 
 permissions:
   pull-requests: write
