@@ -64,6 +64,19 @@ Take the opportunity to edit the `Description` and `Website` of the repository. 
 
 You probably want to rewrite the content of this `README.md` file.
 
+### Development Container
+
+This repository has a [devcontainer](https://code.visualstudio.com/docs/devcontainers/create-dev-container) defined for use with Visual Studio Code.  
+Upon opening the repository in Visual Studio Code, you will be prompted to reopen the repository in the devcontainer.  
+
+This will install all the necessary dependencies to run Jekyll locally without having to install anything on your local machine.
+
+> **Note:** You need to have [Docker](https://www.docker.com/products/docker-desktop) installed on your local machine to use the devcontainer.
+
+You can also use [GitHub Codespaces](https://docs.github.com/codespaces), which is a cloud-based development environment for your repository. The devcontainer configuration will also make sure that Jekyll is installed and running in the Codespace.
+
+It also has vscode tasks defined for running Jekyll locally and serving the site.
+
 ### Configuration
 
 Edit the `_config.yml` file:
